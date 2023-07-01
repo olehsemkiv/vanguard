@@ -1,0 +1,96 @@
+@import "components/base/main";
+@import "components/layouts/main";
+@import "components/blocks/main";
+
+
+html,
+body {
+    block-size: 100%;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    font-family: "Inter";
+    font-size: 16px;
+
+    &._lock {
+        overflow: hidden;
+    }
+}
+
+
+
+.full-screen-section {
+
+    .site-container {
+        height: 100%;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__title {
+        color: #FFF;
+        font-size: 58px;
+        font-family: Inter;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 10px;
+
+        @media (max-width: 767px) {
+            font-size: 38px;
+        }
+    }
+
+    &__sub-title {
+        color: #FFF;
+        font-size: 18px;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        flex: 1 1 auto;
+
+
+    }
+
+    &__btn-wrapper {
+        display: flex;
+        gap: 25px;
+        margin-bottom: 60px;
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+
+    &__btn {}
+
+    &__next-btn {
+        width: 30px;
+        height: 20px;
+        flex-shrink: 0;
+        transition: all 0.4s ease 0s;
+        cursor: pointer;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        @media (min-width: 991px) {
+            &:hover {
+                transform: scale(0.8);
+            }
+        }
+    }
+}
