@@ -21,8 +21,6 @@ body {
     }
 }
 
-
-
 .full-screen-section {
 
     .site-container {
@@ -58,21 +56,20 @@ body {
         line-height: normal;
         text-align: center;
         flex: 1 1 auto;
-
-
     }
 
     &__btn-wrapper {
         display: flex;
         gap: 25px;
         margin-bottom: 60px;
+        width: 100%;
+        justify-content: center;
 
         @media (max-width: 767px) {
             flex-direction: column;
+            align-items: center;
         }
     }
-
-    &__btn {}
 
     &__next-btn {
         width: 30px;
@@ -92,5 +89,30 @@ body {
                 transform: scale(0.8);
             }
         }
+    }
+}
+
+.fullpage-pagination {
+    position: fixed;
+    left: 100px;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+
+    &__item {
+        width: 7px;
+        height: 7px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+
+        &.active {
+            background-color: #fff;
+        }
+    }
+
+    @media (max-width: 767px) {
+        left: 50px;
     }
 }

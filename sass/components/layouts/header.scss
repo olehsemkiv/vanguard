@@ -1,10 +1,16 @@
 .header {
-    padding: 50px 0;
+    padding: 20px 0;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 20;
+    transition: all 0.4s ease 0s;
+
+    &_bg {
+        background-color: #5A5D5D;
+        box-shadow: 0px 1px 5px #5A5D5D;
+    }
 
     &__wrapper {
         display: flex;
@@ -35,10 +41,26 @@
         line-height: normal;
         cursor: pointer;
     }
+
+    &__social {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__social-item {
+        display: block;
+        width: 15px;
+        height: 15px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
 }
 
 .close-button {
-    display: none;
     position: absolute;
     width: 17px;
     height: 17px;
@@ -67,12 +89,6 @@
         background-color: #000;
         transform: rotate(-45deg);
     }
-
-    @media (max-width: 991px) {
-        display: block;
-    }
-
-
 }
 
 .menu {
@@ -100,36 +116,35 @@
     }
 }
 
-@media (max-width: 991px) {
-    .menu {
-        position: fixed;
-        top: 0;
-        right: -100%;
-        background-color: #fff;
-        width: 230px;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        padding: 120px 30px 30px 30px;
-        transition: right 0.3s ease 0s;
-        overflow: auto;
-        z-index: 5;
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #fff;
+    width: 230px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 30px 30px 30px;
+    transition: right 0.3s ease 0s;
+    overflow: auto;
+    z-index: 5;
 
-        &._active {
-            right: 0;
+    &._active {
+        right: 0;
 
-            .menu__list {
-                flex-direction: column;
-                align-items: flex-start;
-            }
+        .menu__list {
+            flex-direction: column;
+            align-items: flex-start;
+            flex: 1 1 auto;
+        }
 
-            .menu__link {
-                color: #000;
-                font-size: 14px;
-                font-family: Inter;
-                font-weight: 500;
-                line-height: normal;
-            }
+        .menu__link {
+            color: #000;
+            font-size: 14px;
+            font-family: Inter;
+            font-weight: 500;
+            line-height: normal;
         }
     }
 }
