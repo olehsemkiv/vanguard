@@ -17,6 +17,7 @@
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<?php wp_head(); ?>
@@ -26,7 +27,7 @@
 	<div class="site-container">
 		<div class="header__wrapper">
 			<a href="#" class="header__logo">
-				<img src="https://i.ibb.co/j6zHYS4/header-logo.png" alt="">
+				<!-- <img src="https://i.ibb.co/j6zHYS4/header-logo.png" alt=""> -->
 			</a>
 			<nav class="header__menu menu">
 				<ul class="menu__list">

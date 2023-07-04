@@ -17,6 +17,7 @@
 </footer>
 
 <?php wp_footer(); ?>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script>
     const next__buttons = document.querySelectorAll('.full-screen-section__next-btn');
 
@@ -97,6 +98,28 @@
             }
         });
     }
+
+    var swiper = new Swiper(".section-slider-1__swiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: ".section-slider-1__swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".section-slider-1__swiper-button-next",
+            prevEl: ".section-slider-1__swiper-button-prev",
+        },
+        breakpoints: {
+            767: {
+                slidesPerView: 2,
+            },
+            991: {
+                slidesPerView: 3,
+            }
+        }
+    });
 </script>
 </body>
 

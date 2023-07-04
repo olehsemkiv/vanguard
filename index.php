@@ -16,7 +16,7 @@
 get_header();
 ?>
 
-<main class="wrapper-fullpage">
+<!-- <main class="wrapper-fullpage">
     <div class="fullpage-pagination">
         <div class="fullpage-pagination__item"></div>
         <div class="fullpage-pagination__item"></div>
@@ -153,9 +153,9 @@ get_header();
             <img src="https://i.ibb.co/bXFyqGB/7-section.jpg" alt="">
         </div>
     </section>
-</main>
+</main> -->
 
-<!-- <main class="wrapper">
+<main class="wrapper">
     <section class="section-hero">
         <div class="site-container">
             <div class="section-hero__wrapper">
@@ -292,7 +292,67 @@ get_header();
             <img src="https://i.ibb.co/rt1JPRv/5.jpg" alt="">
         </div>
     </section>
-</main> -->
+    <section class="section-slider-1">
+        <div class="site-container">
+            <div class="section-slider-1__wrapper">
+                <h2 class="section-slider-1__title title-l">Entdecken Sie unsere Leistungen</h2>
+
+                <div class="section-slider-1__container">
+                    <div class="swiper section-slider-1__swiper">
+                        <div class="swiper-wrapper section-slider-1__swiper-wrapper">
+                            <div class="swiper-slide section-slider-1__swiper-slide">
+                                <div class="section-slider-1__swiper-slide-body">
+                                    <h3 class="section-slider-1__swiper-slide-title">Werkschutz</h3>
+                                    <a href="" class="section-slider-1__swiper-slide-btn btn">Mehr erfahren</a>
+                                    <img src="https://i.ibb.co/RzHhWD8/slide-1.jpg" alt="slide image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide section-slider-1__swiper-slide">
+                                <div class="section-slider-1__swiper-slide-body">
+                                    <h3 class="section-slider-1__swiper-slide-title">Werkschutz</h3>
+                                    <a href="" class="section-slider-1__swiper-slide-btn btn">Mehr erfahren</a>
+                                    <img src="https://i.ibb.co/RzHhWD8/slide-1.jpg" alt="slide image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide section-slider-1__swiper-slide">
+                                <div class="section-slider-1__swiper-slide-body">
+                                    <h3 class="section-slider-1__swiper-slide-title">Werkschutz</h3>
+                                    <a href="" class="section-slider-1__swiper-slide-btn btn">Mehr erfahren</a>
+                                    <img src="https://i.ibb.co/RzHhWD8/slide-1.jpg" alt="slide image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide section-slider-1__swiper-slide">
+                                <div class="section-slider-1__swiper-slide-body">
+                                    <h3 class="section-slider-1__swiper-slide-title">Werkschutz</h3>
+                                    <a href="" class="section-slider-1__swiper-slide-btn btn">Mehr erfahren</a>
+                                    <img src="https://i.ibb.co/RzHhWD8/slide-1.jpg" alt="slide image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide section-slider-1__swiper-slide">
+                                <div class="section-slider-1__swiper-slide-body">
+                                    <h3 class="section-slider-1__swiper-slide-title">Werkschutz</h3>
+                                    <a href="" class="section-slider-1__swiper-slide-btn btn">Mehr erfahren</a>
+                                    <img src="https://i.ibb.co/RzHhWD8/slide-1.jpg" alt="slide image">
+                                </div>
+                            </div>
+                            <div class="swiper-slide section-slider-1__swiper-slide">
+                                <div class="section-slider-1__swiper-slide-body">
+                                    <h3 class="section-slider-1__swiper-slide-title">Werkschutz</h3>
+                                    <a href="" class="section-slider-1__swiper-slide-btn btn">Mehr erfahren</a>
+                                    <img src="https://i.ibb.co/RzHhWD8/slide-1.jpg" alt="slide image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next section-slider-1__swiper-button-next"></div>
+                    <div class="swiper-button-prev section-slider-1__swiper-button-prev"></div>
+                    <div class="swiper-pagination section-slider-1__swiper-pagination"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
 
 <?php
 get_footer();
