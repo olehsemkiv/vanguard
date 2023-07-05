@@ -584,6 +584,62 @@ get_header();
             </div>
         </div>
     </section>
+    <section class="section-text-2">
+        <div class="site-container">
+            <div class="section-text-2__wrapper">
+                <h2 class="section-text-2__title">Ihre Tätigkeit</h2>
+                <div class="section-text-2__text">Kurz und knapp was potentieller Bewerber machen würde. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-column-text-2">
+        <div class="site-container">
+            <div class="section-column-text-2__wrapper">
+                <ul class="section-column-text-2__list">
+                    Wir bieten Ihnen
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                </ul>
+                <ul class="section-column-text-2__list">
+                    Wir bieten Ihnen
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                    <li class="section-column-text-2__item">Lorem Ipsum is simply dummy text of </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="section-contacts">
+        <div class="section-contacts__wrapper">
+            <div class="section-contacts__img">
+                <img src="https://i.ibb.co/NtWp1Fx/contact.jpg" alt="">
+            </div>
+            <div class="section-contacts__info">
+                <h2 class="section-contacts__title title-l">Haben Sie noch Fragen?</h2>
+                <div class="section-contacts__text">Gerne beantworten wir Ihre sämtlichen Fragen rund um Ihre Bewerbung. Sie erreichen uns unter:</div>
+                <div class="section-contacts__item">
+                    <div class="section-contacts__item-title">Telefon</div>
+                    <a href="#" class="section-contacts__item-link">12345 67890</a>
+                </div>
+                <div class="section-contacts__item">
+                    <div class="section-contacts__item-title">E-Mail</div>
+                    <a href="#" class="section-contacts__item-link">info@vanguard-wachschutz.de</a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="section-contacts__btn btn btn_solid">Alle Stellenanzeigen ansehen</a>
+    </section>
 </main>
 
 <?php
