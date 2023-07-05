@@ -17,6 +17,10 @@
     &__container {
         position: relative;
         padding: 0 50px;
+
+        @media (max-width: 767px) {
+            padding: 0 10px;
+        }
     }
 
     &__swiper {
@@ -87,6 +91,15 @@
             background-repeat: no-repeat;
             width: 50px;
             height: 30px;
+
+            @media (max-width: 767px) {
+                width: 30px;
+                height: 15px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            right: -20px;
         }
     }
 
@@ -100,6 +113,15 @@
             width: 50px;
             height: 30px;
             transform: rotate(180deg);
+
+            @media (max-width: 767px) {
+                width: 30px;
+                height: 15px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            left: -20px;
         }
     }
 

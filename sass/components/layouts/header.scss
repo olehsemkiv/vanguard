@@ -9,10 +9,15 @@
 
     &_bg {
         background-color: #fff;
-        box-shadow: 0px 1px 5px #000;
+        box-shadow: 0px 1px 5px rgba(24, 40, 52, 0.4);
 
         .menu__link {
             color: #000;
+            font-weight: 500;
+        }
+
+        .menu__item::before {
+            background-color: #000;
         }
 
         .header__menu-button {
@@ -112,6 +117,24 @@
 
     &__item {
         color: #fff;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 25px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #fff;
+            transition: width 0.4s ease 0s;
+        }
+
+        &:hover {
+            &::before {
+                width: 100%;
+            }
+        }
     }
 
     &__link {
@@ -140,7 +163,7 @@
     transition: right 0.3s ease 0s;
     overflow: auto;
     z-index: 5;
-    box-shadow: 0px 1px 5px #000;
+    box-shadow: 0px 1px 5px rgba(24, 40, 52, 0.4);
 
     &._active {
         right: 0;
